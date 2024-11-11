@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.basis-19 {
+    flex-basis: 19rem;
+}
+
+.p-9 {
+    padding: 9px;
+}
+
+.px-13 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.px-18 {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.px-23 {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mx-13 {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.my-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.w-25 {
+    width: 25px;
+}
+
+.w-122 {
+    width: 122px;
+}
+
+.max-w-500 {
+    max-width: 500px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.h-55 {
+    height: 55px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-responsive {
+    height: calc(100vh - 55px);
+}
+
+.w-h-35 {
+    width: 35px;
+    height: 35px;
+}
+
+.rounded-left-19 {
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+}
+
+.rounded-right-19 {
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.rounded-8 {
+    border-radius: 8px;
+}
+
+.rounded-50 {
+    border-radius: 50%;
+}
+
+.border-2 {
+    border: 2px solid #d3d3d3;
+}
+
+.border-right-none {
+    border-right: none;
+}
+
+.caret {
+    caret-color: #0f0f0f;
+}
+
+.bg-light {
+    background-color: #f8f8f8;
+}
+
+.hover\:bg-light:hover {
+    background-color: #f0f0f0;
+}
+
+.bg-dark {
+    background-color: #f0f0f0;
+}
+
+.hover\:bg-dark:hover {
+    background-color: #ddd;
+}
+
+.fs-1 {
+    font-size: 1rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.outline-none:focus {
+    outline: none;
+}
+
+.text-black {
+    color: #0f0f0f;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.scrollbar {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 250px auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.collaps {
+    grid-template-columns: 0 auto;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 0 auto;
+    }
+
+    .md\:d-none {
+        display: none;
+    }
+}
