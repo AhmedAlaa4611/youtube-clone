@@ -1,6 +1,6 @@
 # YouTube Clone
 
-This is a responsive YouTube clone created using HTML, CSS, and JavaScript. The project replicates the look and feel of YouTube’s interface with a focus on layout and basic interactions.
+This is a responsive `YouTube clone` created using HTML, CSS, and JavaScript. The project replicates the look and feel of YouTube’s interface with a focus on layout and basic interactions.
 
 ## Table of Contents
 - [Demo](#demo)
